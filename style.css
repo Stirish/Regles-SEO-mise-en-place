@@ -136,7 +136,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -658,10 +657,7 @@ h3,
 h4,
 h5,
 h6,
-p,
-label,
-.btn,
-a {
+label {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -794,7 +790,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #000000;
+    color: #333;
 }
 
 .btn-atomic-tangerine:hover {
@@ -810,7 +806,7 @@ h4 {
     color: #cccccc!important;
 }
 
-.ltc-atomic-tangerine .tangerine {
+.ltc-atomic-tangerine, .tangerine  {
     color: #F3976C!important;
 }
 
