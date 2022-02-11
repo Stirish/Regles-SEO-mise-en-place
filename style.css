@@ -170,6 +170,18 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
+.under-logo-contact {
+    position: absolute;
+    left: 48%;
+    top: 215px;
+}
+
+.logo-contact {
+    position: absolute;
+    left: 65%;
+    top: 28%;
+}
+
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
@@ -182,7 +194,7 @@ a:hover {
 }
 
 .d-bloc .panel button:hover,
-.l-bloc button:hover {
+.l-bloc {
     color: rgba(0, 0, 0, .7);
 }
 
@@ -762,7 +774,7 @@ h3 {
 
 .btn-atomic-tangerine:hover {
     background: #c27956;
-    color: #333;
+    color: #FFF;
 }
 
 
@@ -799,7 +811,6 @@ h3 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
-/* citation START*/
 figure {
     color: #575757;
 }
@@ -809,16 +820,11 @@ blockquote {
     font-style: italic;
     margin: 0;
 }
-/* citation END*/
 
 footer p, .social, .contact-heading  {
     color: #333333;
     font-size: 20px;
 }
-
-
-
-/* ----------- RESPONSIVE START-----------  */
 
 @media (max-width: 1024px) {
     .bloc {
@@ -828,6 +834,9 @@ footer p, .social, .contact-heading  {
     .container {
         padding-left: 0;
         padding-right: 0;
+    }
+    .logo-contact, .under-logo-contact{
+        display: none;
     }
 }
 
